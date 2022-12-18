@@ -1,0 +1,53 @@
+.inputTodo{
+    width: 1330px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
+}
+
+.btnTodo{
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+    background-color: blue;
+    color: #ffffff;
+    width: 70px;
+}
+
+.listTodo{
+    list-style-type: none;
+    width: 100%;
+}
+
+.itemTodo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.copyTodo{
+    background-color: #f0e5e5;
+    width: 1330px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.deleteTodo{
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+    background-color: #f0e5e5;
+    color: #ffffff;
+    width: 70px;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 40px;
+    color: black;
+}
+
+.deleteTodo:hover{
+    color: #ffffff;
+    background-color: red;
+}
